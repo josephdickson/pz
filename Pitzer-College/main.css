@@ -1,0 +1,1362 @@
+/*
+Theme Name:     	Pitzer College
+Version: 		1.1
+Author: 		Joseph Dickson
+*/
+
+/*
+CSS Document 
+    Created by Joseph Dickson
+    Edited on 11/04/2014
+	
+	100% saturation of CMYK colors to web
+	Pitzer Orange		#f7941d
+	Link Orange			#CA7918
+	Avocado Green		#a1af27
+	Graphite Gray		#58595b
+	Text Area approx	#f2efe8
+	Background approx	#E0DFCD
+	Pomona-Pitzer Blue	#003d71
+	
+	Secondary Colors
+	
+	light-blue: 	#64b0c3
+	red:			#ee2c3b
+	yellow: 		#ffce00
+	tan:			#e8d9b5
+	
+	Fonts
+	trajan-pro-3 	(Trajan Pro using Adobe Type Kit)
+	nimbus-sans		(Nimbus Sans using Adobe Type Kit)	
+*/
+
+
+
+
+/* Start to customize Reverie */
+
+/* Font Size: Increase max-width from 62.5em of webpages and allow for wider displays */
+.row,
+.contain-to-grid .top-bar {
+/*	max-width: 100em;
+	font-size: 0.98em; */
+	}
+
+header.row,
+.container.row,
+.row.full-width {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.no-padding {padding:0;}
+.no-margin {margin:0;}
+
+h4.subheader, ol.commentlist cite.subheader.fn {
+  margin-top: -1em;
+}
+
+.page-numbers {
+  display: block;
+  height: 1.5em;
+  margin-left: -0.3125em;
+}
+.page-numbers li {
+  display: block;
+  float: left;
+  height: 1.5em;
+  color: #222222;
+  font-size: 0.875em;
+  margin-left: 0.3125em;
+}
+.page-numbers li a {
+  display: block;
+  padding: 0.0625em 0.4375em 0.0625em;
+  color: #999999;
+}
+.page-numbers li:hover a,
+.page-numbers li a:focus {
+  background: #e6e6e6;
+}
+.page-numbers li.unavailable a {
+  cursor: default;
+  color: #999999;
+}
+.page-numbers li.unavailable:hover a, .page-numbers li.unavailable a:focus {
+  background: transparent;
+}
+.page-numbers li.current a {
+  background: #2ba6cb;
+  color: white;
+  font-weight: bold;
+  cursor: default;
+}
+.page-numbers li.current a:hover, .page-numbers li.current a:focus {
+  background: #2ba6cb;
+}
+
+.page-numbers li span:hover a,
+.page-numbers li span a:focus {
+  background: #e6e6e6;
+}
+.page-numbers li span.current {
+  background: #2ba6cb;
+  padding: 0.0625em 0.4375em 0.0625em;
+  color: white;
+  font-weight: bold;
+  cursor: default;
+}
+
+ol.commentlist {
+  margin-left: 0;
+  margin-top: 2em;
+}
+ol.commentlist li {
+  list-style: none;
+  margin-bottom: 2em;
+}
+ol.commentlist .comment-author img {
+  border-radius: 50%;
+  float: left;
+  margin: 0 1em 0 0;
+}
+ol.commentlist .author-meta {
+  display: inline-block;
+}
+ol.commentlist cite.fn {
+  margin-right: 0.5em;
+}
+ol.commentlist section.comment {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e6e6e6;
+  margin-bottom: 1.25em;
+  padding: 20px;
+  background: white;
+}
+ol.commentlist section.comment h1, ol.commentlist section.comment h2, ol.commentlist section.comment h3, ol.commentlist section.comment h4, ol.commentlist section.comment cite.fn, ol.commentlist section.comment h5, ol.commentlist section.comment h6, ol.commentlist section.comment p {
+  color: #333333;
+}
+ol.commentlist section.comment > :first-child {
+  margin-top: 0;
+}
+ol.commentlist section.comment > :last-child {
+  margin-bottom: 0;
+}
+ol.commentlist section.comment h1, ol.commentlist section.comment h2, ol.commentlist section.comment h3, ol.commentlist section.comment h4, ol.commentlist section.comment cite.fn, ol.commentlist section.comment h5, ol.commentlist section.comment h6 {
+  line-height: 1;
+  margin-bottom: 0.625em;
+}
+ol.commentlist section.comment h1.subheader, ol.commentlist section.comment h2.subheader, ol.commentlist section.comment h3.subheader, ol.commentlist section.comment h4.subheader, ol.commentlist section.comment cite.subheader.fn, ol.commentlist section.comment h5.subheader, ol.commentlist section.comment h6.subheader {
+  line-height: 1.4;
+}
+ol.commentlist a.comment-reply-link {
+  float: right;
+  position: relative;
+  bottom: 1em;
+}
+
+ul {}
+
+figure {
+  margin-bottom: 1.25em;
+}
+
+input.prefix.button {
+  line-height: 1;
+}
+
+#sidebar input.prefix.button {
+  line-height: 0.7;
+}
+
+img.alignright {
+  float: right;
+  margin: 0.4em 0 18px 18px;
+}
+
+img.alignleft {
+  float: left;
+  margin: 0.4em 18px 18px 0;
+}
+
+img.aligncenter,
+figcaption.aligncenter {
+  display: block;
+  margin:0.4em auto 18px auto;
+}
+
+img.radius {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	}
+/* 	photo captions require a photo class tag in the parent div tag
+	this will reduce the size of the font and margin - jd
+	
+	Revised 03/05/14 to add same style to figcaption
+	 */
+.photo img {
+	padding-bottom:0;
+	margin-bottom:0;
+	}
+.photo p,
+figcaption {
+	font-size:0.8em;
+	margin:0 0 5px 0;
+	padding:0;
+	line-height: 1.3em;
+	}
+
+figure.figure {
+  margin: 0 auto;
+  display: inline-block;
+}
+figure.figure figcaption {
+  padding: 8px 10px;
+  color: gray;
+  margin-bottom: 1.25em;
+  clear: left;
+}
+
+figure.alignright.figure,
+figcaption.alignright {
+  float: right;
+  margin: 0 0 18px 18px;
+  clear: right;
+}
+
+figure.alignleft.figure,
+figcaption.alignleft {
+  float: left;
+  margin: 0 18px 18px 0;
+}
+
+/* Global basic tags */
+
+body {
+	font-family: 12pt/140% nimbus-sans, Helvetica, Arial, sans-serif;
+	text-align: left;
+	color:#58595b;
+	background-color: #f2f2f2;
+/* commented out gradient
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#eee));
+	background-image: -webkit-linear-gradient(top, #fff, #eee); 
+	background-image:    -moz-linear-gradient(top, #fff, #eee);
+	background-image:     -ms-linear-gradient(top, #fff, #eee);
+	background-image:      -o-linear-gradient(top, #fff, #eee);
+*/
+	}
+	
+/* common text tags for wordpress */
+h1, h2, h3, h4, h5, h6, h1.entry-title {
+	font-family: nimbus-sans, sans-serif, Arial, Helvetica, sans-serif;
+	}
+	
+/* Tables */
+table tr th,
+  table tr td {
+	font: nimbus-sans, Helvetica, Arial, sans-serif;
+    color: #58595b;
+	}	
+	
+/* Header */
+header {margin:1em 0;}
+
+/* hide h1 headlines from landing pages */
+.home.page-template-page-full-centered-landing-php h1 {display:none;}
+
+
+h1.entry-title {
+	padding-left:15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #58595b;
+	font-size: 1.3em;
+	}
+
+p {
+	margin: 0.6em 0;
+}
+/* If paragrah tag isn't generated by WordPress */
+article {line-height:1.36em;}
+
+
+/* Default hyperlink Styles */
+a {color:#5290A0;} /* Darker than the usual Pitzer Light Blue */
+a:hover {color: #f7941d;}
+
+/* Lists */
+.inline,
+.inline-list > li > a {display: inline;} 
+
+/* 
+	Fixes list bullets and numbers that appeared 
+	within the margin of floated elements, images
+	JD 7/2/13
+*/
+div.outside-list ol li,
+div.outside-list ul li {
+	position: relative;
+	list-style-position: outside;
+	left:1.2em;
+	margin-bottom:1.5em;
+}
+
+
+article ul,
+article ol {
+	list-style-position: inside;
+	text-indent: -1em;
+	margin-left: 1em; 
+	}
+
+/* Menu List Correction for above modifications to text-indent and margin left */
+div.menu article ul li a,
+div.menu ul li a,
+article .slideshow-wrapper ul,
+article ul[class*='-block-'] {
+	text-indent: 0;
+	margin-left: 0;
+}
+
+	
+ul.increase-margin li,
+ol.increase-margin li {
+		margin-top: 0.7em;
+		margin-bottom: 0.7em;
+		}
+
+/* Text Styles */
+
+.text-light-gray,
+.light.gray {color: rgb(147,149,152);}
+.text-orange {color: #f7941d;}
+.text-blue {color: #003d71;}
+.text-green {color:#a1af27;}
+.text-light-blue {color: #64b0c3;}
+.text-red {color:#ee2c3b;}
+.text-yellow {color:#ffce00;}
+.text-tan {color:#e8d9b5;}
+.text-white {color:#fff;}
+
+/* text */
+.tiny {
+	font-size:0.6em;
+	}
+.-small, .extra-small {
+	font-size:0.8em;
+	}	
+.small {
+	font-size:0.9em;
+	line-height:1.35em;
+	}
+.medium {
+	font-size:1em;
+	line-height:1.2em;
+	}
+.large {
+	font-size:1.4em;
+	line-height:1.2em;
+	}
+.-large {
+	font-size: 2.7em;	
+	line-height:1.2em;}
+.heavy {
+	font-size:1.7em;
+	line-height:1.2em;
+	}
+p.decrease-leading,
+.decrease-leading p {
+	line-height:1.1em;
+	}
+p.slight-decrease-leading,
+.slight-decrease-leading p {
+	line-height:1.4em;
+	}
+.increase-kerning {
+	letter-spacing: 0.015em;
+	}
+.decrease-kerning {
+	letter-spacing: -0.015em;
+	}
+.bold,
+.strong {font-weight:bold;}	
+
+.normal {font-weight:normal;}
+
+.serif {font-family:"Times New Roman", Georgia, Times, serif;}
+
+.text-shadow {text-shadow: 1px 1px 1px rgba(0,0,0,.5);}
+
+.static a {cursor: default; }
+
+.static.text-orange a {
+	color:#f7941d;
+	}
+.static.text-gray a {
+	color:#58595b;	
+	}
+.text-right {
+	text-align: right;
+	}
+.text-center {
+	text-align: center;
+	}
+.text-left {
+	text-align: left;
+	}
+.active {}
+.eyebrow.pre-title {margin: 0 15px;}
+
+ul.increase-vertical-margin li,
+p.increase-vertical-margin {margin: 0.8em 0;}
+
+
+.small.date {
+	font-size:.82em;
+	}
+
+/* shadows */
+.shadow {
+	-moz-box-shadow: 0px 0px 10px #333;
+	-webkit-box-shadow: 0px 0px 10px #333;
+	box-shadow: 0px 0px 10px #333;
+}
+.light-shadow {
+	-moz-box-shadow: 0px 0px 4px #333;
+	-webkit-box-shadow: 0px 0px 4px #333;
+	box-shadow: 0px 0px 4px #333;
+}
+
+p .-large,
+p.-large {
+	font-size:2em;
+	line-height:1em;
+	}
+
+p .white,
+p.white {
+	color: #fff;
+	}
+.block {
+	display: block;
+	}
+.capitalize {
+	text-transform:capitalize;
+	}
+
+.uppercase {
+	text-transform: uppercase;
+	}
+.center {
+	text-align: center;
+	}
+
+.justify {
+	text-align: justify;
+	}
+	
+/* borders */
+
+.overline {
+	border-top: 1px;
+	}
+.underline {
+	border-bottom: 1px;
+	}
+.overline {
+	border-color: #fff;
+	}
+.underline {
+	border-color: #fff;
+	}
+.overline.underline {border-width: 3px 0;}
+.solid {
+	border-style: solid;
+	}
+/* boxes */
+
+.clear {clear:both;}
+.clear-left {clear:left;}
+.clear-right {clear:right;}
+
+/* Sidebar Banner */
+
+.career-services .banner {background-image: url('http://pitweb.pitzer.edu/wp-content/uploads/2013/07/banner-cherry-blossoms-mounds.jpg');}
+
+.banner {}
+.banner span{
+	margin-top:.5em;
+	}
+.banner span.text-white {}
+.banner .text-shadow {
+	text-shadow: 3px 3px 5px rgba(0,0,0,.9);}
+
+div.asphalt {
+	background: url('/wp-content/uploads/2013/05/asphalt-tile.png') repeat;
+	border-width: 0;
+	}
+
+div.gray {
+	background-color: #58595b;
+}
+
+div.green {
+	background-color:#a1af27;
+}
+
+div.light-blue {
+	background-color:#64b0c3;
+}
+
+div.orange {
+	background-color:#f7941d;
+}
+
+div.white {
+	background-color:#fff;
+}
+
+a.light-blue {
+	color:#2BA6CB;
+}
+
+a.white {
+	color:#fff;
+}
+
+a:hover.white {
+	color:#58595b;
+}
+
+.orange { background-color : #f7941d; }
+.green { background-color: #a1af27; }
+.sagehen-blue { background-color : #003d71; }
+.light-blue { background-color : #64b0c3; }
+.red { background-color : #ee2c3b; }
+.yellow { background-color : #ffce00; }
+.tan { background-color : #e8d9b5; }
+
+/* Main Navigation */
+#top-nav {
+	z-index: 100;
+	background-color: #58595b;
+}
+nav.top-bar.large-12.columns,
+nav.top-bar ul.left li,
+nav.top-bar ul.right li,
+nav.top-bar ul li.menu-item a {
+	background-color: #202021;
+}
+#top-nav div.row {}
+.container.row {} /* fix scroll bug with top nav */
+.contain-to-grid {}
+.top-bar {}
+.top-bar {margin-bottom: 0;}
+.top-bar .has-form {border-right:1px solid #d1d1d1;}
+.top-bar ul.left {}
+.top-bar ul.left li a {}
+.top-bar .menu-item {}
+.top-bar ul.dropdown {}
+.top-bar ul.dropdown a:hover {}
+
+.top-bar ul.title-area {
+margin: 0;
+}
+.top-bar-section {}
+.top-bar-section ul.right.small-12.large-3.columns {width:25% !important;}
+.top-bar-section li a:not(.button) {}
+.top-bar-section li a:hover:not(.button) {}
+.top-bar-section li.divider {
+	border-color: #d1d1d1 !important;
+}
+.top-bar-section .has-form {}
+.top-bar #searchsubmit,
+.top-bar input#s {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	}
+.top-bar input#s {margin-left: 6px;}
+.top-bar #searchsubmit:hover {}
+header.row {
+	display: none;
+}
+.row.banner-3 .columns {}
+nav.top-bar.large-12.columns {}
+nav.top-bar span {}
+.title-area li.name h1 {display: none;}
+
+/* Container */
+
+div.container.full-page.shadow {
+	-moz-box-shadow: 0 7px 0 #fff, 0 0 7px #333;
+	-webkit-box-shadow: 0 7px 0 #fff, 0px 0px 7px #333;
+	box-shadow: 0 7px 0 #fff, 0px 0px 7px #333;
+	}
+
+footer a {}
+footer.row.full-width {
+	padding: 20px 10% 0 10%;
+	max-height: 211px;
+}
+
+div.row.footer-sitemap {
+	background-color: #58595b;
+	color: #d1d1d1;
+	padding:1em 0;
+	margin-top: 3em;
+	}
+.footer-sitemap li {
+	list-style:none;
+	}
+.footer-sitemap .border-right {border-right:1px solid #9A9A9B;}
+
+.footer-sitemap a {color:#d2d2d2;}
+.footer-sitemap a:hover {color:#64b0c3;}
+
+.footer-sitemap.text-orange a,
+.footer-sitemap a.text-orange,
+.footer-sitemap .text-orange a {
+	color: #f7941d;
+	}
+	
+.footer-sitemap.text-orange a:hover,
+.footer-sitemap a:hover.text-orange,
+.footer-sitemap .text-orange a:hover {
+	color: #64b0c3;
+	}
+.row.footer-sitemap.landing {margin:0;}
+
+/* Sub Navigation - side menus */
+ul#menu-secondary-menu > li.menu-item,
+ul#menu-redford-conservancy > li.menu-item,
+ul li.page_item,
+div.columns.menu li {
+	list-style:none;
+	}
+
+#sidebar ul.side-nav .divider {
+	margin: 1.5em 0;
+	cursor: pointer;
+}
+div.small-12.large-3.columns.menu {margin-top:0.5em;}
+
+/* hide sub menus when not active */
+ul.children {display:none;}
+
+/* display active sub menu */
+li.active ul.children {display:block;}
+li.current_page_ancestor ul.children, 
+li.current_page_ancestor ul.children ul.children,
+li.current_page_ancestor ul.children ul.children ul.children {display:block;}
+ul.children {margin-left:0em;}
+
+/* change color of current page in sub menu */
+li.current_page_item.active a,
+li.current-menu-item.active a,
+ul.sub-menu li.menu-item-type-taxonomy.active a,
+ul.sub-menu li.menu-item-type-taxonomy.active a,
+li.page_item_has_children ul.children li.active a {
+	color:#fff;
+	background-color:#f7941d;
+	font-weight:bold;
+	text-shadow: 1px 1px 0 #58595b;
+	}
+	
+
+ul.sub-menu li.menu-item-type-taxonomy a,
+ul.sub-menu li.menu-item-type-taxonomy a,
+li.page_item_has_children ul.children li a,
+li.current_page_ancestor ul.children li.active.page_item_has_children ul.children li a {
+	color:#5290A0;;
+	background-color:#fff;
+	font-weight:normal;
+	text-shadow: none;
+	}
+
+/* children of current page */
+li.current_page_item ul.children li a,
+li.current_page_item ul.sub-menu li a,
+li.current_page_item ul.sub-menu ul.sub-menu li a {
+	background-color:#fff;
+	color: #5290A0;
+	font-weight:normal;
+	text-shadow: none;
+	}
+
+li.current_page_item ul.children li a:hover,
+li.current_page_item ul.sub-menu li a:hover {
+	color:#f7941d;
+	background-color:none;
+	}
+ul.sub-menu {
+	margin:0;
+	}
+/* create a light border around active page and child menu */
+li.current_page_item.active,
+li.current_page_ancestor,
+li.current-menu-item  {
+	border-radius: 3px;
+	}
+
+/* Remove border around nested child menus */
+li.current_page_ancestor li.current_page_item.active,
+ul.children li.current_page_ancestor.current_page_parent,
+ul.sub-menu .active {
+	border-width:0 !important;}
+
+/* Categories, Menus & Posts - Navigation */
+div.columns.menu ul {}
+div.columns.menu ul li {}
+ul#menu-sidebar-navigation {width:100%;}
+
+/* light-gray menu hover effect */
+div.columns.menu.light-gray ul li a {
+	padding:0.2em;
+	display:block;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius:3px;
+	}
+	
+div.columns.menu.light-gray ul.children li a {padding-left:0.5em;}
+
+/* Menu buttons */
+div.columns.menu ul li.button {}
+
+/* Borders */
+.border-top {border-width-top: 1px solid #f2f2f2;}
+.border-right {border-right: 1px solid #f2f2f2;}
+.border-bottom {border-bottom: 1px solid #f2f2f2;}
+.border-left {border-width-left: 1px solid #f2f2f2;}
+
+/* 
+	Horizontal divider class tag for menus
+	USE: creates a light gray rule between menu items -jd
+*/
+div.columns.menu.light-gray ul li.divider {
+	margin: 1em 0;
+	padding:0;
+	border-top:1px solid #d9d9d9;
+	}	
+div.columns.menu.light-gray ul li.divider a {
+	cursor: pointer;
+	padding:0;
+	background-color:none;
+	}
+
+/* Magellan navigation */
+ul.sub-nav {
+	font-size:.8em;
+	margin:0;
+	padding:0;
+	list-style:none;
+	height:25px;
+	}
+ul.sub-nav li {
+	margin:.2em;
+	padding: 3px 2px 0 2px;
+	display: inline-block;
+	border-radius:1.5em;
+	}
+ul.sub-nav li.active {
+	background-color:#f7941d;
+	color:#fff;
+	}
+ul.sub-nav li.active a {
+	color:#fff;
+	}
+/* add apptional padding to the top to offest the nav from covering the linked item */
+.magellan,
+a.magellan {padding-top:100px;display:block;}
+
+/* remove additional padding to correct the layout of the page this should be negative the exact measurement of padding above */
+.magellan, 
+a.magellan {margin-top:-100px;display:block;}
+
+/* Citation and Footnotes */
+/* positve padding and negative margin of equal amounts will force anchor links to move below the fixed top nav so they won't be obsecured. */
+a.cite,
+.footnote a {
+    padding-top:55px;
+	margin-top:-55px;
+	font-weight:bold;
+	color: #ee2c3b;
+	}
+
+/* Panels and Callouts */
+
+.panel.white,
+.panel.white p {
+	background-color: #fff;
+	color: #58595b;
+}
+.panel {
+	/* margin:1em; */
+	}
+
+.panel.callout.orange {
+    border-style: solid;
+    border-width: 1px;
+	border-color: #f7941d;
+	background-color:#f7941d !important;
+    margin-bottom: 1.25em;
+    padding: 1.25em;
+    background: none repeat scroll 0% 0% rgb(43, 166, 203);
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5) inset;
+	color: #fff;
+}
+
+.panel.callout.orange a {
+	color:#fff;
+	}
+
+.no-border {
+	border-width: 0;
+	}
+
+/* bread crumbs - Requires SEO by Yoast to be installed */
+#breadcrumbs {
+	}
+	
+.home #breadcrumbs {
+	display:none;
+	}
+
+p#breadcrumbs,
+footer p {
+	padding:0;
+	font-size: 0.7rem;
+	}
+	
+footer p {
+	margin:0.5em 0 1.25em 1em;
+	}
+
+/* Page and Post Headline size and weights */
+
+article header h1.entry-title {
+	font-weight:normal;
+	font-size: 1.7em;
+	margin: 0;
+	padding: 0;}
+
+/* Remove updated time and byline / author */
+time.updated,
+.byline.author {
+	display : none;
+}
+/* Restore the time and byline / author manually using the category name */
+.category-sliders time.updated,
+.category-sliders .byline.author {display: block;}
+
+/* Sections, Accordion, Tabs, Vertical Nav & Nav Bar */
+
+.accordion.section-container section a {
+	white-space: pre-line;
+	line-height:1em;
+	}
+.section-container.accordion {
+	border-width: 0;
+	}
+.accordion.section-container section a {
+	background-color: #FBFBFB;
+	}
+.accordion.section-container section a:hover  {
+	}
+.accordion.section-container section.active {
+	border-width: 1px;
+	border-style:dashed;
+	border-color: #C7E2E9;
+	margin: 0px -2px 5px -2px;
+	}
+.accordion.section-container section.active .title a {
+	background-color: #64b0c3;
+	}
+.accordion.section-container section .title span {
+	font-size:0.9em;
+	color: #58595b;
+	font-weight: normal;
+	display:block;
+	margin-top:-10px;
+	margin-bottom: 2em;
+	}
+.accordion.section-container section p.title a	{
+	color:#244047;}
+.accordion.section-container section p.title a:hover {
+	background-color:#C7E2E9;
+	}
+.accordion.section-container section p.title a:hover span	{}
+
+.accordion.section-container section.active p.title {border-left: 1px solid #64b0c3;}
+.accordion.section-container section.active p.title:hover {border-left: 1px solid #C7E2E9;}
+.accordion.section-container section p.title {border: none;}
+
+/* Foundation.css overrides */
+.row .row {margin: 0;}
+
+/* 	[profile]  -Class Tag, shortcode-
+	creates a tile used in 3 columns for profile information on a staff page
+	Used for basic information Photo and, contact info
+	uses shortcode [profile] */
+.staff-profile {margin-bottom:2em;}
+.staff-profile img {
+	margin-right: 100%;
+	margin-bottom: 0.5em;}
+
+/* Buttons */
+.button {}
+
+.button.orange {
+	background-color:#f7941d;
+	border-color: #f7941d;
+}
+.button.orange a {
+	color:#fff;
+	border-color: #f7941d;
+}
+.button.white {
+	background-color:#fff;
+	border-color: #f7941d;
+	border-width:1px;
+}
+.button.white a {
+	color: #58595b;
+}
+
+.button.orange:hover {
+	background-color:#CA7918;
+
+}
+
+.button.flat {
+	border-width:0;
+	box-shadow: none;
+	}
+.transparent {background: none;}
+
+/* Inactive Button */
+.button.gray,
+.button.inative  {
+	background-color:#f2f2f2;
+	border-color: #58595b;
+	color: #58595b;
+	cursor: default;
+	}
+
+/* Orbit */
+.orbit-bullets li {
+    width: 8px;
+    height: 8px;
+    border-width: 0;
+	background-color: #f7941d;
+	}
+/* Widgets */
+.widget_text h6 {display:none;}
+.widget_text .row .small-12 img {float:right;}
+.widget_text .pitzer-college-flag a {
+	background: url('/celebrate50/wp-content/uploads/sites/9/2013/06/pitzer-college-flag.png') no-repeat left bottom;
+	width:129px;
+	height:60px;
+	margin-top:18px;
+	float:left;
+	margin-left:-24px;
+	}
+.widget_recent_entries h6 {font-size:.8em;}
+span.post-date,
+.post header p.byline.author {display:none;}
+
+.widget_nav_menu h6 {
+	margin-left: 18px;
+	}
+
+/* Videos, Reveal Modal, YouTube, Vimeo lightbox */
+.reveal-modal {
+    padding: 1.875em;
+	position:fixed;
+	top:1.875em;
+}
+
+/* Hover Caption */
+div.caption {opacity: 0;
+	z-index:2; 
+	position:absolute;
+	width:100%;
+	height:100%;
+	} 
+div.caption p {margin:1.2em;}
+.row a .image.caption  {color: #000000;}
+div.caption:hover {background-color: rgba(255,255,255,1);   
+    z-index: 2;  
+    -webkit-transition: all 400ms ease-out;  
+    -moz-transition: all 400ms ease-out;  
+    -o-transition: all 400ms ease-out;  
+    -ms-transition: all 400ms ease-out;  
+    transition: all 400ms ease-out;  
+    opacity: 0.75;
+	} 
+div.caption img:hover {z-index:1;}
+/* Remove padding around RRC homepage tiles */
+.page-id-878 .hide-for-small.columns.image {padding: 0 3px;}
+.page-id-878 .hide-for-small.large-4.columns {padding: 0 3px;}
+.page-id-878 .entry-title {font-size:1.6em;}
+
+/* Event Organizer Plugin */
+article header h1.event-organizer.entry-title {font-size:1.4em;}
+h1.page-title {font-weight: normal;}
+.event-entry-meta {
+	margin:1em 0;
+	border: solid #d1d1d1;
+	border-width:0 0 1px 0;
+	padding:1em 0;
+	}
+	
+/* Google Custom Search */
+li#cse-search-form.search {width:225px;}
+
+section.top-bar-section.large-12 ul.right {
+	background-color:#202021;}
+
+section.top-bar-section.large-12 ul.right td {
+	padding:0;
+	margin:0;
+}
+input.gsc-input {
+    border-color: #BCCDF0;
+	width:5em;
+	height:2.5em;
+  }
+input.gsc-search-button {
+    border-color: #666666;
+	padding:0;
+	margin:0;
+	font-size:1em !important;
+
+  }
+table.gsc-search-box {
+	background-color:#202021;}
+form .gsc-search-box {
+	border-width:0px;
+	float:right;
+	margin:2px 0 0 0px;
+	padding:0;
+	background-color:transparent;
+	}
+input.gsc-input {border-width:0px;}
+.gsc-input {border-width:0px;
+	background-image:none !important;
+	background-color:transparent;
+	font-weight:normal;
+	color:#58595b;
+	width:12em;
+	font-size:1.2em;
+	height:25px !important;
+	margin-left:.6em !important;
+	border-radius:3px;
+}
+input.gsc-search-button {border-width:0px;
+    background-color: #d1d1d1;
+	font-size:1.2em;
+	width:50px; height:25px;
+	cursor:pointer;
+	border-radius:3px;
+	margin-right:.4em;
+	}
+.gsc-clear-button,
+.gsc-branding-img, 
+.gsc-branding-text {display:none;}
+
+/*
+	Social Network Icons
+	ul.socialicons added for specificity if needed - jd
+*/
+ul.socialnetworks {
+  margin: 0; padding: 0; display:inline; clear:left;
+}
+
+li.twitter a, li.youtube a, li.facebook a, li.flickr a, li.vimeo a {
+	float:left;
+	background: url( 'http://pitweb.pitzer.edu/wp-content/uploads/2014/07/social-icons-blue.gif' ) no-repeat;
+	width: 36px;
+	height: 36px;
+	margin: 0 12px 0 0;
+}
+
+li.twitter, li.youtube, li.facebook, li.flickr, li.vimeo {
+	display:inline;
+}
+
+li.facebook a {
+	background-position:0 0;
+}
+
+li.flickr a {
+	background-position:0 -71px;
+}
+
+li.twitter a {
+	background-position: 0 -141px;
+}
+
+li.vimeo a {
+	background-position: 0 -211px;
+}
+
+li.youtube a {
+	background-position: 0 -283px;
+}
+
+li.twitter span, li.youtube span, li.facebook span, li.flickr span, li.vimeo span {
+	display:none;
+}
+
+li.facebook a:hover {
+	background-position: 0 -36px;
+}
+
+li.flickr a:hover {
+	background-position: 0 -107px;
+}
+
+li.twitter a:hover {
+	background-position: 0 -177px;
+}
+
+li.vimeo a:hover {
+	background-position: 0 -247px;
+}
+
+li.youtube a:hover {
+	background-position: 0 -319px;
+}
+
+div.gform_body input { display:inline; }
+
+/* Section Menu Accordion 10-27-14 */
+.accordion-menu section div ul.menu {
+	display:none;
+	}
+	
+.accordion-menu section.active div ul.menu {
+	display:block;
+	}
+
+/* accordion class override forces open on all pages and posts with a accordion-menu active class tags manually placed in template  */
+.accordion-menu.active section div ul.menu {
+	display:block;
+	}
+
+/* CSS overrides to counter default styles by Foundation 4 */
+#section-menu.section-container * {
+	margin:0;
+	padding:0;
+	text-indent: 0em;
+	background-color: #fff;
+	border: none;
+	}
+	
+ #section-menu.section-container{
+	 border: none;
+	}
+	
+.menu.accordion-menu #section-menu.section-container p.title {
+	font-size:1rem;
+	font-weight: bold;
+	}
+
+	
+/* Customization */
+#section-menu.section-container p.title {
+	font-size:1rem;
+	font-weight: bold;
+	}
+
+
+#section-menu.section-container section p.title::after {
+	content: "+";
+	float:right;
+	margin-left:-1em;
+	}
+
+#section-menu.section-container section.active p.title::after{
+	content: "-";
+	}
+
+#section-menu li.menu-item {
+	display: block;
+	margin-top: 0.4rem;
+	margin-bottom: 0.4rem;
+	}
+
+#section-menu li a {
+	display: block;
+	line-height:1rem;
+	}
+
+
+#section-menu.section-container section.active li {}
+
+#section-menu li.current-menu-item.active a {
+	color: #f7941d;
+	font-weight: normal;
+	text-shadow: none;
+	}
+
+/* Adjust margins for sub-menus */
+#section-menu ul.sub-menu {
+	margin-left: 0.5em;
+	padding-left: 0.5em;
+	border-left: 1px solid #f2f2f2;
+}
+
+#section-menu ul.sub-menu a {
+	color: #5290A0 !important;
+}
+
+#section-menu ul.sub-menu a:hover {
+	color: #f7941d !important;
+}
+
+#section-menu ul.sub-menu li.current_page_item a {
+	color: #f7941d !important;
+}
+
+#section-menu ul.sub-menu ul.sub-menu li a {
+	color: #5290A0 !important;
+}
+
+#section-menu ul.sub-menu ul.sub-menu li.current_page_item a {
+	color: #f7941d !important;
+}
+
+#section-menu ul.sub-menu li a:hover {
+	color: #f7941d !important;
+}
+
+
+#section-menu .menu.accordion-menu .sub-menu li.menu-item {
+	margin-left: -1em !important;
+	padding-left: 1.5em !important;
+	padding-top:1.5em !important;
+	}
+
+/* 
+	Media Queries for mobile 
+*/
+@media only screen and (max-width: 940px) {
+	.widget_text .pitzer-college-flag {display:none !important;}
+}
+
+@media only screen and (max-width: 905px) and (min-width: 1px){
+.top-bar-section li.divider {
+	border-width: 0px;
+	}
+	.panel {
+	margin-left:1%;
+	margin-right:1%;
+	}
+	.banner span {font-size:1.2em;}
+}
+/* Breakpoint for mobile is below 787px */
+@media only screen and (min-width: 1px) and (max-width: 767px) {
+	div.small-12.profile.columns {
+		padding:0;
+	}
+	.panel {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	div#top-nav.sticky.contain-to-grid.fixed {
+		position:relative;
+	}
+}
+
+/* reduce size of body and nav text for desktops */
+@media only screen and (min-width: 1024px) {
+.top-bar-section li.divider {
+	border: 1px solid #d1d1d1;
+	border-width: 0 0 0 1px;
+	}
+.home div.small-12.large-9.columns,
+div.small-12.large-9.columns {
+	font-size:87%;
+	}
+div.small-12.large-3.columns.menu {
+	font-size:80%;
+	line-height:1.2em;
+	}
+div.small-12.large-3.columns.menu li a {
+	padding-left: 1em;
+	}
+div.small-12.large-9.columns table td {
+	font-size:1em;
+	line-height:1.6em;
+	}
+}
+
+@media print {
+  * {
+    background: transparent !important;
+    color: black !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important; }
+
+  a,
+  a:visited {
+    text-decoration: underline; }
+
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: ""; }
+
+  pre,
+  blockquote {
+    border: 1px solid #999999;
+    page-break-inside: avoid; }
+
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */ }
+
+  tr,
+  img {
+    page-break-inside: avoid; }
+
+  img {
+    max-width: 100% !important; }
+
+  @page {
+    margin: 0.5cm; }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+
+  h2,
+  h3 {
+    page-break-after: avoid; }
+
+  .hide-on-print {
+    display: none !important; }
+
+  .print-only {
+    display: block !important; }
+
+  .hide-for-print {
+    display: none !important; }
+
+  .show-for-print {
+    display: inherit !important; }
+	}
