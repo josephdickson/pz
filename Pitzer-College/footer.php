@@ -16,7 +16,12 @@ $(window).bind('scroll', function(){
 <div class="container row full-page">
 <footer class="row full-width" role="contentinfo">
 
-	<div class="small-12 large-12 columns watermark"></div>
+	<div class="small-12 large-12 columns watermark">
+<?php	
+	$watermark = get_field('watermark' , 'option');
+	echo '<img src="' . $watermark['url'] . '" alt="' . $watermark['alt'] . '" />' ;
+?>
+	</div>
 </footer>
 </div>
 <?php wp_footer(); ?>

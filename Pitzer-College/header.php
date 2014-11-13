@@ -38,8 +38,20 @@
 <body <?php body_class(); ?>>
 
 <div class="container row shadow banner">
-<a class="logo" href="https://www.pitzer.edu"></a><span class="large bold text-shadow text-white right"><?php bloginfo('name'); ?></span>
-<a href="<?php the_field('url_header'); ?>"><img class="left" alt="" src="<?php the_field('logo_header'); ?>" /></a>
+<span class="large bold text-shadow text-white right"><?php bloginfo('name'); ?></span>
+<?php 	
+	
+	$logo_header = get_field('logo_header' , 'option');
+ 	$logo_url = get_field('url_footer' ,  'option');
+?>
+
+
+
+
+<a href="<?php echo $logo_url; ?>"><img class="left" alt="<?php echo $logo_header['alt']; ?>" src="<?php echo $logo_header['url']; ?>" /></a>
+
+
+
 <span class="large bold text-shadow text-white right"></span>
 </div>
 
