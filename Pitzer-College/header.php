@@ -38,7 +38,9 @@
 <body <?php body_class(); ?>>
 
 <div class="container row shadow banner">
-<a class="logo" href="https://www.pitzer.edu"></a><span class="extra-large bold text-shadow text-white right"><?php bloginfo('name'); ?></span>
+<a class="logo" href="https://www.pitzer.edu"></a><span class="large bold text-shadow text-white right"><?php bloginfo('name'); ?></span>
+<a href="<?php the_field('url_header'); ?>"><img class="left" alt="" src="<?php the_field('logo_header'); ?>" /></a>
+<span class="large bold text-shadow text-white right"></span>
 </div>
 
 

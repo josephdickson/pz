@@ -172,7 +172,7 @@ function pz_section_menu() {
 }
 
 add_action( 'wp_enqueue_scripts', 'pz_section_menu');
-
+*/
 
 //	Advanced Custom Fields Pro Options Page
 //	http://www.advancedcustomfields.com/resources/options-page/

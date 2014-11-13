@@ -1,6 +1,6 @@
 /*
 Theme Name:         Pitzer College
-Version: 1.2.1
+Version: 1.2.2
 */
 
 /*
@@ -413,20 +413,21 @@ p.white {
   float:left;
   display:block;
 }
-.footer-sitemap .logo {
+/*.footer-sitemap .logo {
   background-image: url('images/pitzer_logo_sans_colleges_white-transparent.png');
 	width: 279px;
   height:91px;
   float: right;
 }
+*/
 
-.watermark {
+/* .watermark {
   background-image: url('images/pitzer-footer-watermark-770.png');
   background-repeat: no-repeat;
   width:770px;
   height:149px;
 }
-
+*/
 .banner span{
 	margin-right: 0.6em;
 	}
