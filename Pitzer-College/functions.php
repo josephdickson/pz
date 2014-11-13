@@ -182,4 +182,120 @@ if( function_exists('acf_add_options_page') ) {
 	acf_add_options_page();
 	
 }
+
+if( function_exists('register_field_group') ):
+
+register_field_group(array (
+	'key' => 'group_5464f860ced58',
+	'title' => 'Header & Footer',
+	'fields' => array (
+		array (
+			'key' => 'field_5464f8732d88d',
+			'label' => 'Logo',
+			'name' => 'logo_header',
+			'prefix' => '',
+			'type' => 'image',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'return_format' => 'array',
+			'preview_size' => 'thumbnail',
+			'library' => 'all',
+		),
+		array (
+			'key' => 'field_546508b5804f3',
+			'label' => 'Logo Footer',
+			'name' => 'logo_footer',
+			'prefix' => '',
+			'type' => 'image',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'return_format' => 'array',
+			'preview_size' => 'thumbnail',
+			'library' => 'all',
+		),
+		array (
+			'key' => 'field_5464f8832d88e',
+			'label' => 'url',
+			'name' => 'url_header',
+			'prefix' => '',
+			'type' => 'url',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => 'http://www.pitzer.edu',
+			'placeholder' => '',
+		),
+		array (
+			'key' => 'field_546508dd804f4',
+			'label' => 'url Footer',
+			'name' => 'url_footer',
+			'prefix' => '',
+			'type' => 'url',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => 'http://www.pitzer.edu',
+			'placeholder' => '',
+		),
+		array (
+			'key' => 'field_54650e9fb5b51',
+			'label' => 'Watermark',
+			'name' => 'watermark',
+			'prefix' => '',
+			'type' => 'image',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'return_format' => 'array',
+			'preview_size' => 'thumbnail',
+			'library' => 'all',
+		),
+	),
+	'location' => array (
+		array (
+			array (
+				'param' => 'options_page',
+				'operator' => '==',
+				'value' => 'acf-options',
+			),
+		),
+	),
+	'menu_order' => 0,
+	'position' => 'normal',
+	'style' => 'default',
+	'label_placement' => 'top',
+	'instruction_placement' => 'label',
+	'hide_on_screen' => '',
+));
+
+
+endif;
+
 ?>
