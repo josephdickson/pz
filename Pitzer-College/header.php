@@ -37,13 +37,16 @@
 
 <body <?php body_class(); ?>>
 
-<div class="container row shadow banner">
-<span class="large bold text-shadow text-white right"><?php bloginfo('name'); ?></span>
 <?php 	
 	
 	$logo_header = get_field('logo_header' , 'option');
  	$logo_url = get_field('url_footer' ,  'option');
+	$banner = get_field('image_banner' ,  'option');
 ?>
+
+<div class="container row shadow banner" style="background-image: url('<?php echo $banner['url']; ?>');">
+<span class="large bold text-shadow text-white right"><?php bloginfo('name'); ?></span>
+
 
 
 

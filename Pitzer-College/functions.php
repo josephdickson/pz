@@ -207,6 +207,8 @@ register_field_group(array (
 			'preview_size' => 'thumbnail',
 			'library' => 'all',
 		),
+
+
 		array (
 			'key' => 'field_546508b5804f3',
 			'label' => 'Logo Footer',
@@ -263,6 +265,24 @@ register_field_group(array (
 			'key' => 'field_54650e9fb5b51',
 			'label' => 'Watermark',
 			'name' => 'watermark',
+			'prefix' => '',
+			'type' => 'image',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'return_format' => 'array',
+			'preview_size' => 'thumbnail',
+			'library' => 'all',
+		),
+		array (
+			'key' => 'field_54651a271b364',
+			'label' => 'Banner Image',
+			'name' => 'image_banner',
 			'prefix' => '',
 			'type' => 'image',
 			'instructions' => '',
