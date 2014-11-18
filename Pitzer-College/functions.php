@@ -565,6 +565,143 @@ register_field_group(array (
 	'hide_on_screen' => '',
 ));
 
+// Footer contact Information
+register_field_group(array (
+	'key' => 'group_546bbbcf710d6',
+	'title' => 'Footer Contact Info',
+	'fields' => array (
+		array (
+			'key' => 'field_546bbc8ea7d46',
+			'label' => 'Office Name',
+			'name' => 'office',
+			'prefix' => '',
+			'type' => 'text',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => '',
+			'placeholder' => 'Office of Communications',
+			'prepend' => '',
+			'append' => '',
+			'maxlength' => '',
+			'readonly' => 0,
+			'disabled' => 0,
+		),
+		array (
+			'key' => 'field_546bbe69a7d47',
+			'label' => 'Office Location',
+			'name' => 'location',
+			'prefix' => '',
+			'type' => 'textarea',
+			'instructions' => 'On campus office location.',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => '',
+			'placeholder' => 'Scott Hall 100',
+			'maxlength' => '',
+			'rows' => 3,
+			'new_lines' => 'br',
+			'readonly' => 0,
+			'disabled' => 0,
+		),
+		array (
+			'key' => 'field_546bbefca7d48',
+			'label' => 'Phone Numbers',
+			'name' => 'phone',
+			'prefix' => '',
+			'type' => 'textarea',
+			'instructions' => 'Add each number on a separate line.',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => '909.555.5555
+Fax: 909.555.5555',
+			'placeholder' => '',
+			'maxlength' => '',
+			'rows' => 3,
+			'new_lines' => 'br',
+			'readonly' => 0,
+			'disabled' => 0,
+		),
+		array (
+			'key' => 'field_546bbf4fa7d49',
+			'label' => 'Address',
+			'name' => 'address',
+			'prefix' => '',
+			'type' => 'textarea',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => '1050 N. Mills Avenue
+Claremont, CA 91711',
+			'placeholder' => '',
+			'maxlength' => '',
+			'rows' => 3,
+			'new_lines' => 'br',
+			'readonly' => 0,
+			'disabled' => 0,
+		),
+		array (
+			'key' => 'field_546bbf88a7d4a',
+			'label' => 'Email',
+			'name' => 'email',
+			'prefix' => '',
+			'type' => 'text',
+			'instructions' => 'Use a general email address.
+When "Office Name" is clicked it will open an email to the provided address.
+',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => '',
+			'placeholder' => '',
+			'prepend' => '',
+			'append' => '',
+			'maxlength' => '',
+			'readonly' => 0,
+			'disabled' => 0,
+		),
+	),
+	'location' => array (
+		array (
+			array (
+				'param' => 'options_page',
+				'operator' => '==',
+				'value' => 'acf-options',
+			),
+		),
+	),
+	'menu_order' => 0,
+	'position' => 'normal',
+	'style' => 'default',
+	'label_placement' => 'top',
+	'instruction_placement' => 'label',
+	'hide_on_screen' => '',
+));
+
 endif;
 
 ?>
