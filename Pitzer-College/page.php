@@ -29,11 +29,6 @@ yoast_breadcrumb('<p id="breadcrumbs">','</p>');} ?>
 
 				<?php get_template_part( 'acf' , 'flexible-fields' ); ?>
 
-				<?php // get_template_part( 'acf' , 'accordion' ); ?>
-
-				<?php // get_template_part( 'acf' , 'additional-content' );  // wysiwyg Additional Content ?>
-
-
                             <?php if ( is_user_logged_in() ) { ?>
                             <p class="small">Last modified by <?php the_modified_author(); ?>, on <?php the_modified_date( $d, $echo ); ?>.</p>
                             <?php } ?>
@@ -43,7 +38,6 @@ yoast_breadcrumb('<p id="breadcrumbs">','</p>');} ?>
 					
 			<?php dynamic_sidebar("section-menu"); ?>
 
-			<?php get_template_part( 'acf' , 'getting-help' ); // wysiwyg Getting Help box ?>
                 </div>
 		</article>
 			
