@@ -27,9 +27,11 @@ yoast_breadcrumb('<p id="breadcrumbs">','</p>');} ?>
                     <div class="row">
                             <?php the_content(); ?>
 
-				<?php get_template_part( 'acf' , 'accordion' ); ?>
+				<?php get_template_part( 'acf' , 'flexible-fields' ); ?>
 
-				<?php get_template_part( 'acf' , 'additional-content' );  // wysiwyg Additional Content ?>
+				<?php // get_template_part( 'acf' , 'accordion' ); ?>
+
+				<?php // get_template_part( 'acf' , 'additional-content' );  // wysiwyg Additional Content ?>
 
 
                             <?php if ( is_user_logged_in() ) { ?>
