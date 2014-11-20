@@ -317,7 +317,7 @@ register_field_group(array (
 
 register_field_group(array (
 	'key' => 'group_54592956ca395',
-	'title' => 'IMS Flexible Content',
+	'title' => 'Flexible Content',
 	'fields' => array (
 		array (
 			'key' => 'field_54592991e1d35',
@@ -551,9 +551,37 @@ register_field_group(array (
 	'location' => array (
 		array (
 			array (
-				'param' => 'page_template',
+				'param' => 'page_type',
 				'operator' => '==',
-				'value' => 'default',
+				'value' => 'front_page',
+			),
+		),
+		array (
+			array (
+				'param' => 'page_type',
+				'operator' => '==',
+				'value' => 'posts_page',
+			),
+		),
+		array (
+			array (
+				'param' => 'page_type',
+				'operator' => '==',
+				'value' => 'top_level',
+			),
+		),
+		array (
+			array (
+				'param' => 'page_type',
+				'operator' => '==',
+				'value' => 'parent',
+			),
+		),
+		array (
+			array (
+				'param' => 'page_type',
+				'operator' => '==',
+				'value' => 'child',
 			),
 		),
 	),
@@ -561,7 +589,7 @@ register_field_group(array (
 	'position' => 'normal',
 	'style' => 'default',
 	'label_placement' => 'top',
-	'instruction_placement' => 'label',
+	'instruction_placement' => 'field',
 	'hide_on_screen' => '',
 ));
 

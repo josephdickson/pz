@@ -17,7 +17,8 @@ yoast_breadcrumb('<p id="breadcrumbs">','</p>');} ?>
 				<?php reverie_entry_meta(); ?>
 			</header>
                     <div class="row">
-                            <?php the_content(); ?>
+                        <?php the_content(); ?>
+			<?php get_template_part( 'acf' , 'flexible-fields' ); ?>
                     </div>
 				</div>
                 <div class="small-12 large-3 columns menu small light-gray">

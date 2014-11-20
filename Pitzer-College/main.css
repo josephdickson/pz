@@ -894,6 +894,14 @@ time.updated,
 .accordion.section-container section.active p.title:hover {border-left: 1px solid #C7E2E9;}
 .accordion.section-container section p.title {border: none;}
 
+/* Button within accordion */
+.accordion.section-container section a.button {
+	background-color: #F7941D;
+	}
+.accordion.section-container section a.button:hover {
+	background-color: #CA7918;
+	}
+
 /* Foundation.css overrides */
 .row .row {margin: 0;}
 
@@ -1241,6 +1249,11 @@ div.gform_body input { display:inline; }
 	padding-left: 1.5em !important;
 	padding-top:1.5em !important;
 	}
+
+/* 
+	Profile ACF
+*/
+.profile img {padding-top: 1em;}
 
 /* 
 	Media Queries for mobile 

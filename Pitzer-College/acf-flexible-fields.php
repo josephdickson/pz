@@ -35,10 +35,10 @@ if( have_rows('flexible_content') ):
         elseif( get_row_layout() == 'profile' ): 
 		
 		echo '<div class="row">';
-		echo '<div class="small-12 large-4 columns">
+		echo '<div class="small-12 large-4 columns profile">
 			<img src="'. $image['url'] .'" alt="' . $image['alt'] . '" />
 		</div>';
-		echo '<div class="small-12 large-8 columns">' . $content . '</div>' ;
+		echo '<div class="small-12 large-8 columns profile">' . $content . '</div>' ;
 		echo '</div>';
 	// Additional Content
 	elseif( get_row_layout() == 'additional_content' ):
