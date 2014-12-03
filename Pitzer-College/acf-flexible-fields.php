@@ -50,7 +50,7 @@ if( have_rows('flexible_content') ):
 		// check if the nested repeater field has rows of data
         	if( have_rows('column_repeater') ):
 
-			 	echo '<ul class="small-block-grid-' . $number_columns . '">';
+			 	echo '<ul class="small-block-grid-1 large-block-grid-' . $number_columns . '">';
 
 			 	// loop through the rows of data
 			    while ( have_rows('column_repeater') ) : the_row();

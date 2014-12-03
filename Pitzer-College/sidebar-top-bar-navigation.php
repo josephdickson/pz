@@ -16,8 +16,26 @@
 <li class="divider"></li><li id="menu-item-343" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-343"><a  title="Student Life" href="https://www.pitzer.edu/student_life/">Student Life</a></li>
 <li class="divider"></li><li id="menu-item-344" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-344"><a  title="Alumni &amp; Parents" href="https://mypz.pitzer.edu/netcommunity">Alumni &#038; Parents</a></li>
 </ul>         <ul class="right small-12 large-3 columns">
-	    	<li class="divider hide-for-small"></li>
-		 <li id="cse-search-form" class="search"></li>
+	    	<li class="divider hide-for-small">
+
+		<div class="google-search">
+		<script>
+		  (function() {
+		    var cx = '018033754568041666078:1xx7hf9ejvq';
+		    var gcse = document.createElement('script');
+		    gcse.type = 'text/javascript';
+		    gcse.async = true;
+		    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+			'//www.google.com/cse/cse.js?cx=' + cx;
+		    var s = document.getElementsByTagName('script')[0];
+		    s.parentNode.insertBefore(gcse, s);
+		  })();
+		</script>
+		<gcse:search></gcse:search>
+		</div>
+
+		</li>
+		 
 	    </ul>
 	    </section>     
 	</nav>

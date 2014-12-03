@@ -250,6 +250,7 @@ body {
 /* common text tags for wordpress */
 h1, h2, h3, h4, h5, h6, h1.entry-title {
 	font-family: nimbus-sans, sans-serif, Arial, Helvetica, sans-serif;
+	font-weight: bold;
 	}
 	
 /* Tables */
@@ -267,13 +268,22 @@ header {margin:1em 0;}
 
 
 h1.entry-title {
-	padding-left:15px;
+	padding-left: 15px;
+	font-weight: bold;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	color: #58595b;
 	font-size: 1.3em;
-	}
+}
+
+h1, h2, h3 {
+	font-size: 1.3em;
+}
+
+h4, h5, h6 {
+	font-size: 1.1em;
+}
 
 p {
 	margin: 0.6em 0;
@@ -838,8 +848,7 @@ footer p {
 /* Page and Post Headline size and weights */
 
 article header h1.entry-title {
-	font-weight:normal;
-	font-size: 1.7em;
+	font-size: 1.3em;
 	margin: 0;
 	padding: 0;}
 
@@ -1022,59 +1031,78 @@ h1.page-title {font-weight: normal;}
 	}
 	
 /* Google Custom Search */
-li#cse-search-form.search {width:225px;}
 
-section.top-bar-section.large-12 ul.right {
-	background-color:#202021;}
-
-section.top-bar-section.large-12 ul.right td {
-	padding:0;
-	margin:0;
-}
-input.gsc-input {
-    border-color: #BCCDF0;
-	width:5em;
-	height:2.5em;
-  }
-input.gsc-search-button {
-    border-color: #666666;
-	padding:0;
-	margin:0;
-	font-size:1em !important;
-
-  }
-table.gsc-search-box {
-	background-color:#202021;}
-form .gsc-search-box {
-	border-width:0px;
-	float:right;
-	margin:2px 0 0 0px;
-	padding:0;
-	background-color:transparent;
-	}
-input.gsc-input {border-width:0px;}
-.gsc-input {border-width:0px;
+/* reset Google Custom Search and Foundation presets */
+div.google-search .cse .gsc-control-cse, .gsc-control-cse,
+div.google-search table,
+div.google-search td.gsc-input,
+div.google-search input.gsc-input,
+div.google-search .gsc-input-box {
+	padding:0 !important;
+	margin:0 !important;
+	height:100% !important;
+	border: 0px !important;
+	background-color: transparent !important;
 	background-image:none !important;
-	background-color:transparent;
-	font-weight:normal;
-	color:#58595b;
-	width:12em;
-	font-size:1.2em;
-	height:25px !important;
-	margin-left:.6em !important;
-	border-radius:3px;
+	font-size:12px !important;
+	font-weight:normal !important;
 }
-input.gsc-search-button {border-width:0px;
-    background-color: #d1d1d1;
-	font-size:1.2em;
-	width:50px; height:25px;
-	cursor:pointer;
-	border-radius:3px;
-	margin-right:.4em;
-	}
-.gsc-clear-button,
-.gsc-branding-img, 
-.gsc-branding-text {display:none;}
+
+div.google-search .gsc-input-box {
+	display:none !important;
+}
+
+/* customize */
+ul.right.small-12.large-3.columns {
+	background-color:#202021;
+}
+
+div.google-search input.gsc-input,
+div.google-search td.gsc-input-box {
+	width:15.5em !important;
+	background-color:#fff !important;
+	padding:0 10px !important;
+	height:2.8rem !important;
+	margin-top:-0.5rem !important;
+}
+
+td.gsc-search-button input.gsc-search-button {
+	margin:0!important;
+	margin-left:-10px !important;
+	font-size:16px !important;
+	margin-top:0 !important;
+	height:2.8rem !important;
+	margin-top:-0.5rem !important;
+	border:0;
+	font-weight:normal !important;
+	position:absolute;
+	background-color: #f7941d !important;
+	color:#fff !important;
+}
+/* shadow */
+div.google-search input.gsc-input:hover,
+div.google-search td.gsc-input-box:hover,
+div.google-search input.gsc-input:focus,
+div.google-search td.gsc-input-box:focus {
+	-moz-box-shadow:    inset 0 0 3px #000000;
+	-webkit-box-shadow: inset 0 0 3px #000000;
+	box-shadow:         inset 0 0 3px #000000;
+}
+
+/* Google Search Results Pop Up Overlay */
+a.gs-title,
+a.gs-image {
+	background: transparent !important;
+	height: 2em !important;
+	line-height: 1em !important;
+}
+
+.gs-bidi-start-align.gs-snippet, 
+.gs-bidi-start-align.gs-visibleUrl.gs-visibleUrl-long {
+	padding: 0 10px;
+	font-size:0.8rem;
+	line-height:1rem;
+}
 
 /*
 	Social Network Icons
