@@ -1059,7 +1059,7 @@ ul.right.small-12.large-3.columns {
 
 div.google-search input.gsc-input,
 div.google-search td.gsc-input-box {
-	width:15.5em !important;
+	width: 180px !important;
 	background-color:#fff !important;
 	padding:0 10px !important;
 	height:2.8rem !important;
@@ -1069,7 +1069,8 @@ div.google-search td.gsc-input-box {
 
 td.gsc-search-button input.gsc-search-button {
 	margin:0!important;
-	margin-left:-10px !important;
+	padding:0px 10px !important;
+	margin-left: -8px !important;
 	font-size:16px !important;
 	margin-top:0 !important;
 	height:2.8rem !important;
@@ -1078,9 +1079,10 @@ td.gsc-search-button input.gsc-search-button {
 	font-weight:normal !important;
 	position:absolute;
 	background-color: #f7941d !important;
-	border: 10px solid #202021 !important;
+	border: 0px !important;
 	color:#fff !important;
 }
+input.gsc-search-button {padding: 10px !important;}
 /* shadow */
 div.google-search input.gsc-input:hover,
 div.google-search td.gsc-input-box:hover,
