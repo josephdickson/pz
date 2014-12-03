@@ -1064,6 +1064,7 @@ div.google-search td.gsc-input-box {
 	padding:0 10px !important;
 	height:2.8rem !important;
 	margin-top:-0.5rem !important;
+	border: 2px solid #f7941d !important;
 }
 
 td.gsc-search-button input.gsc-search-button {
@@ -1091,7 +1092,8 @@ div.google-search td.gsc-input-box:focus {
 
 /* Google Search Results Pop Up Overlay */
 a.gs-title,
-a.gs-image {
+a.gs-image,
+a.gs-spelling {
 	background: transparent !important;
 	height: 2em !important;
 	line-height: 1em !important;
