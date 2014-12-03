@@ -1064,7 +1064,7 @@ div.google-search td.gsc-input-box {
 	padding:0 10px !important;
 	height:2.8rem !important;
 	margin-top:-0.5rem !important;
-	border: 2px solid #f7941d !important;
+	border: 10px solid #202021 !important;
 }
 
 td.gsc-search-button input.gsc-search-button {
@@ -1078,6 +1078,7 @@ td.gsc-search-button input.gsc-search-button {
 	font-weight:normal !important;
 	position:absolute;
 	background-color: #f7941d !important;
+	border: 10px solid #202021 !important;
 	color:#fff !important;
 }
 /* shadow */
