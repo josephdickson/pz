@@ -495,7 +495,9 @@ p.white {
 
 .career-services .banner {background-image: url('http://pitweb.pitzer.edu/wp-content/uploads/2013/07/banner-cherry-blossoms-mounds.jpg');}
 
-.banner {}
+.banner {
+	padding: 0 10px;
+}
 .banner span{
 	margin-top:.5em;
 	}
