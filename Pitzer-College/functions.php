@@ -730,6 +730,46 @@ When "Office Name" is clicked it will open an email to the provided address.
 	'hide_on_screen' => '',
 ));
 
+// Redirect URL
+register_field_group(array (
+	'key' => 'group_54810d07aa9f1',
+	'title' => 'Redirect URL',
+	'fields' => array (
+		array (
+			'key' => 'field_54810d133f352',
+			'label' => 'Redirect to URL',
+			'name' => 'redirect_to_url',
+			'prefix' => '',
+			'type' => 'url',
+			'instructions' => 'URL to redirect this page to.',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => 'http://www.pitzer.edu',
+			'placeholder' => '',
+		),
+	),
+	'location' => array (
+		array (
+			array (
+				'param' => 'page_template',
+				'operator' => '==',
+				'value' => 'page-redirect.php',
+			),
+		),
+	),
+	'menu_order' => 0,
+	'position' => 'normal',
+	'style' => 'default',
+	'label_placement' => 'top',
+	'instruction_placement' => 'label',
+	'hide_on_screen' => '',
+));
+
 endif;
 
 ?>
