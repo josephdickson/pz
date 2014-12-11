@@ -39,6 +39,15 @@ yoast_breadcrumb('<p id="breadcrumbs">','</p>');} ?>
 			<?php dynamic_sidebar("section-menu"); ?>
 
                 </div>
+
+                <div class="small-12 large-3 columns menu accordion-menu small">
+					
+			<?php dynamic_sidebar("sidebar"); ?>
+			<?php dynamic_sidebar("sidebar-subnav"); ?>
+			<?php dynamic_sidebar("sidebar-secondary-subnav"); ?>
+
+                </div>
+
 		</article>
 			
             </div>
