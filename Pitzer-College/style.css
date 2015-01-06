@@ -1,6 +1,6 @@
 /*
 Theme Name:         Pitzer College
-Version: 1.2.15
+Version: 1.2.14
 Author: Joseph Dickson
 */
 
@@ -226,6 +226,25 @@ header {margin:1em 0;}
 
 /* hide h1 headlines from landing pages */
 .home.page-template-page-full-centered-landing-php h1 {display:none;}
+
+
+h1.entry-title {
+	padding-left: 15px;
+	font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #58595b;
+	font-size: 1.3em;
+}
+
+h1, h2, h3 {
+	font-size: 1.3em;
+}
+
+h4, h5, h6 {
+	font-size: 1.1em;
+}
 
 a {color:#f7941d;}
 a:hover {color: #64b0c3;}
