@@ -45,7 +45,7 @@ CSS Document
 header.row,
 .container.row,
 .row.full-width {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .no-padding {padding:0;}
@@ -266,28 +266,30 @@ header {margin:1em 0;}
 /* hide h1 headlines from landing pages */
 .home.page-template-page-full-centered-landing-php h1 {display:none;}
 
-
-h1.entry-title {
-	padding-left: 15px;
-	font-weight: bold;
-}
-
 h1, h2, h3, h4, h5, h6 {
 	color: #58595b;
-	font-size: 1.3em;
 }
 
-h1, h2, h3 {
-	font-size: 1.3em;
+h1 {
+	font-size:1.4em;
+}
+
+h2 {
+	font-size:1.3em;
+}
+
+h3 {
+	font-size:1.2em;
 }
 
 h4, h5, h6 {
 	font-size: 1.1em;
 }
 
-p {
-	margin: 1em 0;
-}
+h1.entry-title {
+	padding-left: 15px;
+	font-weight: bold;
+	font-size: 1.4em;
 
 /* Reduce line-height in body copy */
 article p {
@@ -772,6 +774,7 @@ ul.sub-nav {
 	list-style:none;
 	height:25px;
 	}
+
 ul.sub-nav li {
 	margin:.2em;
 	padding: 3px 2px 0 2px;
