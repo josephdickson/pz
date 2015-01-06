@@ -45,7 +45,7 @@ CSS Document
 header.row,
 .container.row,
 .row.full-width {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .no-padding {padding:0;}
