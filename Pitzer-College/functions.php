@@ -229,7 +229,7 @@ register_field_group(array (
 		),
 		array (
 			'key' => 'field_5464f8832d88e',
-			'label' => 'url Footer',
+			'label' => 'Link url for header logo',
 			'name' => 'url_header',
 			'prefix' => '',
 			'type' => 'url',
@@ -246,7 +246,7 @@ register_field_group(array (
 		),
 		array (
 			'key' => 'field_546508dd804f4',
-			'label' => 'url Footer',
+			'label' => 'Link url for footer logo',
 			'name' => 'url_footer',
 			'prefix' => '',
 			'type' => 'url',

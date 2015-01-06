@@ -9,7 +9,7 @@
 <?php
 
 	$logo_footer = get_field('logo_footer' , 'option');
-	$logo_url_footer = get_field('url_header' , 'option');
+	$logo_url_footer = get_field('url_footer' , 'option');
 
  ?>
 
