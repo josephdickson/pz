@@ -5,7 +5,7 @@
     <li><a href="/advancement/">Giving</a></li>
     <li><a href="/directories/">Directories</a></li>
     <li><a href="/emergency-information-preparedness/">Emergency</a></li>
-    <li><a href="/web-feedback-form/">Website Feedback</a></li>
+    <li><a href="forms.pitzer.edu/web-feedback-form/">Website Feedback</a></li>
 </ul>
 
 <ul class="tiny">
