@@ -2,10 +2,10 @@
     </div>
     <div class="small-12 large-2 columns">
 <ul class="small">
-    <li><a href="http://www.pitzer.edu/offices/advancement/giving/index.asp">Giving</a></li>
-    <li><a href="http://www.pitzer.edu/faculty_staff/directories/index.asp">Directories</a></li>
-    <li><a href="http://pitweb.pitzer.edu/emergency-information-preparedness/">Emergency</a></li>
-    <li><a href="http://www.pitzer.edu/feedback/form.asp">Website Feedback</a></li>
+    <li><a href="/advancement/">Giving</a></li>
+    <li><a href="/directories/">Directories</a></li>
+    <li><a href="/emergency-information-preparedness/">Emergency</a></li>
+    <li><a href="/web-feedback-form/">Website Feedback</a></li>
 </ul>
 
 <ul class="tiny">
@@ -45,7 +45,7 @@
 <ul>
 	<li class="large"><strong>Quicklinks</strong></li>
 	<li><a href="https://mycampus2.pitzer.edu/ics/">MyCampus2 Portal</a></li>
-	<li><a href="http://www.pitzer.edu/offices/human_resources/">Human Resources</a></li>
+	<li><a href="/human-resources/">Human Resources</a></li>
 	<li><a href="https://mail.google.com/a/students.pitzer.edu">Email for Students</a></li>
 	<li><a href="http://email.pitzer.edu/">Email for Faculty &amp; Staff</a></li>
 	<li><a href="https://sakai.claremont.edu:8443/portal/site/">Sakai</a></li>
