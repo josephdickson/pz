@@ -677,60 +677,6 @@ li.current_page_ancestor ul.children ul.children,
 li.current_page_ancestor ul.children ul.children ul.children {display:block;}
 ul.children {margin-left:0em;}
 
-/* change color of current page in sub menu */
-li.current_page_item.active a,
-li.current-menu-item.active a,
-ul.sub-menu li.menu-item-type-taxonomy.active a,
-ul.sub-menu li.menu-item-type-taxonomy.active a,
-li.page_item_has_children ul.children li.active a {
-	color:#fff;
-	background-color:#f7941d;
-	font-weight:bold;
-	text-shadow: 1px 1px 0 #58595b;
-	}
-	
-
-ul.sub-menu li.menu-item-type-taxonomy a,
-ul.sub-menu li.menu-item-type-taxonomy a,
-li.page_item_has_children ul.children li a,
-li.current_page_ancestor ul.children li.active.page_item_has_children ul.children li a {
-	color:#5290A0;;
-	background-color:#fff;
-	font-weight:normal;
-	text-shadow: none;
-	}
-
-/* children of current page */
-li.current_page_item ul.children li a,
-li.current_page_item ul.sub-menu li a,
-li.current_page_item ul.sub-menu ul.sub-menu li a {
-	background-color:#fff;
-	color: #5290A0;
-	font-weight:normal;
-	text-shadow: none;
-	}
-
-li.current_page_item ul.children li a:hover,
-li.current_page_item ul.sub-menu li a:hover {
-	color:#f7941d;
-	background-color:none;
-	}
-ul.sub-menu {
-	margin:0;
-	}
-/* create a light border around active page and child menu */
-li.current_page_item.active,
-li.current_page_ancestor,
-li.current-menu-item  {
-	border-radius: 3px;
-	}
-
-/* Remove border around nested child menus */
-li.current_page_ancestor li.current_page_item.active,
-ul.children li.current_page_ancestor.current_page_parent,
-ul.sub-menu .active {
-	border-width:0 !important;}
-
 /* Categories, Menus & Posts - Navigation */
 div.columns.menu ul {}
 div.columns.menu ul li {}
