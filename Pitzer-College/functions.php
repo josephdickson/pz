@@ -584,6 +584,13 @@ register_field_group(array (
 				'value' => 'child',
 			),
 		),
+		array (
+			array (
+				'param' => 'post_type',
+				'operator' => '==',
+				'value' => 'post',
+			),
+		),
 	),
 	'menu_order' => 0,
 	'position' => 'normal',
