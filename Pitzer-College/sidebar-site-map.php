@@ -46,6 +46,7 @@
 	<li class="large"><strong>Quicklinks</strong></li>
 	<li><a href="https://mycampus2.pitzer.edu/ics/">MyCampus2 Portal</a></li>
 	<li><a href="/human-resources/">Human Resources</a></li>
+	<li title="Presidential Search"><a href="http://pitweb.pitzer.edu/presidential-search/">Presidential Search</a></li>
 	<li><a href="https://mail.google.com/a/students.pitzer.edu">Email for Students</a></li>
 	<li><a href="http://email.pitzer.edu/">Email for Faculty &amp; Staff</a></li>
 	<li><a href="https://sakai.claremont.edu:8443/portal/site/">Sakai</a></li>
