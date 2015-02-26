@@ -29,6 +29,8 @@ yoast_breadcrumb('<p id="breadcrumbs">','</p>');} ?>
 
 				<?php get_template_part( 'acf' , 'flexible-fields' ); ?>
 
+				<?php get_template_part ( 'acf' , 'social-networks' );?> 
+
                             <?php if ( is_user_logged_in() ) { ?>
                             <p class="small">Last modified by <?php the_modified_author(); ?>, on <?php the_modified_date( $d, $echo ); ?>.</p>
                             <?php } ?>

@@ -1,0 +1,178 @@
+ul.social-icons {
+	margin:0;
+	padding:0;
+}
+ul.social-icons li {
+	margin: 10px 2px;
+	padding: 0;
+	float: left;
+	list-style: none;
+	display:block;
+}
+ul.social-icons li a {
+	display:block;
+	background-image: url('social-icons-web.png');
+	padding: 0;
+	margin: 0;
+	background-repeat: no-repeat;
+}
+/* Border Radius */
+ul.social-icons.circle li a	{
+	border-radius: 50px;
+}
+ul.social-icons.rounded li a	{
+	border-radius: 5px;
+}
+ul.social-icons.square li a	{
+	border-radius: 0;
+}
+/* Social Icon Global Settings */
+ul.social-icons li a span  {
+	display: none;
+}
+
+/* 20x20 px Social Icon Size */
+ul.social-icons.twenty li a {
+	height: 20px;
+	width:	20px;
+}
+ul.social-icons.twenty li.Facebook a {
+	background-position: 0 -184px;
+}
+ul.social-icons.twenty li.Flickr a {
+	background-position: -26px -184px;
+}
+ul.social-icons.twenty li.Instagram a {
+	background-position: -51px -184px;
+}
+ul.social-icons.twenty li.Linkedin a {
+	background-position: -76px -184px;
+}
+ul.social-icons.twenty li.Pinterest a {
+	background-position: -102px -184px;
+}
+ul.social-icons.twenty li.Twitter a {
+	background-position: -128px -184px;
+}
+ul.social-icons.twenty li.Vimeo a {
+	background-position: -153px -184px;
+}
+ul.social-icons.twenty li.YouTube a {
+	background-position: -178px -184px;
+}
+/* 25x25 px Social Icon Size */
+ul.social-icons.twenty-five li a {
+	height: 25px;
+	width:	25px;
+}
+ul.social-icons.twenty-five li.Facebook a {
+	background-position: 0 -150px;
+}
+ul.social-icons.twenty-five li.Flickr a {
+	background-position: -33px -150px;
+}
+ul.social-icons.twenty-five li.Instagram a {
+	background-position: -64px -150px;
+}
+ul.social-icons.twenty-five li.Linkedin a {
+	background-position: -96px -150px;
+}
+ul.social-icons.twenty-five li.Pinterest a {
+	background-position: -128px -150px;
+}
+ul.social-icons.twenty-five li.Twitter a {
+	background-position: -160px -150px;
+}
+ul.social-icons.twenty-five li.Vimeo a {
+	background-position: -192px -150px;
+}
+ul.social-icons.twenty-five li.YouTube a {
+	background-position: -223px -150px;
+}
+/* 30x30 px Social Icon Size */
+ul.social-icons.thirty li a {
+	height: 30px;
+	width:	30px;
+}
+ul.social-icons.thirty li.Facebook a {
+	background-position: 0 -110px;
+}
+ul.social-icons.thirty li.Flickr a {
+	background-position: -39px -110px;
+}
+ul.social-icons.thirty li.Instagram a {
+	background-position: -77px -110px;
+}
+ul.social-icons.thirty li.Linkedin a {
+	background-position: -115px -110px;
+}
+ul.social-icons.thirty li.Pinterest a {
+	background-position: -153px -110px;
+}
+ul.social-icons.thirty li.Twitter a {
+	background-position: -192px -110px;
+}
+ul.social-icons.thirty li.Vimeo a {
+	background-position: -230px -110px;
+}
+ul.social-icons.thirty li.YouTube a {
+	background-position: -269px -110px;
+}
+/* 40x40 px Social Icon Size */
+ul.social-icons.fourty li a {
+	height: 40px;
+	width:	40px;
+}
+ul.social-icons.fourty li.Facebook a {
+	background-position: 0 -60px;
+}
+ul.social-icons.fourty li.Flickr a {
+	background-position: -52px -60px;
+}
+ul.social-icons.fourty li.Instagram a {
+	background-position: -103px -60px;
+}
+ul.social-icons.fourty li.Linkedin a {
+	background-position: -154px -60px;
+}
+ul.social-icons.fourty li.Pinterest a {
+	background-position: -205px -60px;
+}
+ul.social-icons.fourty li.Twitter a {
+	background-position: -257px -60px;
+}
+ul.social-icons.fourty li.Vimeo a {
+	background-position: -308px -60px;
+}
+ul.social-icons.fourty li.YouTube a {
+	background-position: -358px -60px;
+}
+/* 50x50 px Social Icon Size */
+ul.social-icons.fifty li a {
+	height: 50px;
+	width:	50px;
+}
+ul.social-icons.fifty li.Facebook a {
+	background-position: 0 0;
+}
+ul.social-icons.fifty li.Flickr a {
+	background-position: -65px 0;
+}
+ul.social-icons.fifty li.Instagram a {
+	background-position: -129px 0;
+}
+ul.social-icons.fifty li.Linkedin a {
+	background-position: -193px 0;
+}
+ul.social-icons.fifty li.Pinterest a {
+	background-position: -257px 0;
+}
+ul.social-icons.fifty li.Twitter a {
+	background-position: -321px 0;
+}
+ul.social-icons.fifty li.Vimeo a {
+	background-position: -384px 0;
+}
+ul.social-icons.fifty li.YouTube a {
+	background-position: -449px 0;
+}
