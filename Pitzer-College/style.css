@@ -804,6 +804,11 @@ time.updated,
 .widget_text .row .small-12 img {float:right;}
 
 /* Videos, Reveal Modal, YouTube, Vimeo lightbox */
+#myModal {
+	max-height: 90%;
+	overflow: auto;
+}
+
 .reveal-modal {
     padding: 1.875em;
 	position:fixed;

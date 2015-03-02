@@ -5,13 +5,14 @@
     <li><a href="/advancement/">Giving</a></li>
     <li><a href="/directories/">Directories</a></li>
     <li><a href="/emergency-information-preparedness/">Emergency</a></li>
-    <li><a href="http://forms.pitzer.edu/web-feedback-form/">Website Feedback</a></li>
+    <li><a href="/maps/">Campus Maps</a></li>
 </ul>
 
 <ul class="tiny">
     <li class="large"><strong><a href="http://pitweb.pitzer.edu/">About</a></strong></li>
     <li><a href="/president/">President's Office</a></li>
     <li><a href="/administration/">Administration</a></li>
+    <li title="Presidential Search"><a href="http://pitweb.pitzer.edu/presidential-search/">Presidential Search</a></li>
     <li><a href="/claremont-colleges/">The Claremont Colleges</a></li>
 </ul>
     </div>
@@ -46,8 +47,8 @@
 	<li class="large"><strong>Quicklinks</strong></li>
 	<li><a href="https://mycampus2.pitzer.edu/ics/">MyCampus2 Portal</a></li>
 	<li><a href="/human-resources/">Human Resources</a></li>
-	<li title="Presidential Search"><a href="http://pitweb.pitzer.edu/presidential-search/">Presidential Search</a></li>
 	<li><a href="https://mail.google.com/a/students.pitzer.edu">Email for Students</a></li>
 	<li><a href="http://email.pitzer.edu/">Email for Faculty &amp; Staff</a></li>
 	<li><a href="https://sakai.claremont.edu:8443/portal/site/">Sakai</a></li>
+	<li><a href="http://forms.pitzer.edu/web-feedback-form/">Website Feedback</a></li>
 </ul>
