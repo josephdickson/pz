@@ -38,7 +38,7 @@
     max-width: 100% !important; }
 
   @page {
-    margin: 0.5cm; }
+    margin: 0.5in; }
 
   p,
   h2,
@@ -64,4 +64,28 @@
 
 .row.footer-sitemap.landing {
 	display:none;
+}
+
+
+h1,
+h1.entry-title {
+	font-size:14pt !important;
+	font-weight: bold !important;
+}
+
+h2, h3 {
+
+	font-size:12pt !important;
+	font-weight: bold !important;
+}
+
+h4, h5, h6 {
+
+	font-size:10pt !important; 
+	font-weight: bold !important;
+}
+p, li {
+
+	font-size:9pt !important; 
+	font-weight: normal !important;
 }
