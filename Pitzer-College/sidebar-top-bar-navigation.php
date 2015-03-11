@@ -1,4 +1,4 @@
-	<nav class="top-bar large-12 columns">
+	<nav class="top-bar large-12 columns hide-for-print">
 			    <ul class="title-area large-2 columns">
 
             <li class="name">
