@@ -44,14 +44,14 @@
 	$banner = get_field('image_banner' ,  'option');
 ?>
 
-<div class="container row shadow banner" style="background-image: url('<?php echo $banner['url']; ?>');">
-<span class="large bold text-shadow text-white right"><?php bloginfo('name'); ?></span>
+<div class="container row shadow banner hide-for-print" style="background-image: url('<?php echo $banner['url']; ?>');">
+<span class="large bold text-shadow text-white right hide-for-print"><?php bloginfo('name'); ?></span>
 
 
 
 
 
-<a href="<?php echo $logo_url; ?>"><img class="left" alt="<?php echo $logo_header['alt']; ?>" src="<?php echo $logo_header['url']; ?>" /></a>
+<a href="<?php echo $logo_url; ?>"><img class="left hide-for-print" alt="<?php echo $logo_header['alt']; ?>" src="<?php echo $logo_header['url']; ?>" /></a>
 
 
 

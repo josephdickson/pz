@@ -8,15 +8,15 @@ $(window).bind('scroll', function(){
 });
 </script>
 
-<div class="row full-width">
+<div class="row full-width hide-for-print">
 	<?php get_sidebar('footer-sitemap-landing'); ?>
 	<?php dynamic_sidebar("Footer"); ?>
 </div>
 
-<div class="container row full-page">
+<div class="container row full-page hide-for-print">
 <footer class="row full-width" role="contentinfo">
 
-	<div class="small-12 large-12 columns watermark">
+	<div class="small-12 large-12 columns watermark hide-for-print">
 <?php	
 	$watermark = get_field('watermark' , 'option');
 	echo '<img src="' . $watermark['url'] . '" alt="' . $watermark['alt'] . '" />' ;
