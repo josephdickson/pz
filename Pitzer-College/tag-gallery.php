@@ -1,14 +1,16 @@
 <?php get_header(); ?>
 
-<!-- Row for main content area - single.php -->
+<!-- Row for main content area - tag-gallery.php -->
 
-	<div class="small-12 profile columns" role="main">
+<div class="small-12 profile columns" role="main">
+
+<div class="small-12 large-2 columns menu extra-small">&nbsp;</div>
 	<?php /* Start loop */ ?>
 	<?php while (have_posts()) : the_post(); ?>
 				<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
            
 			
-            	<div class="small-12 large-9 columns">
+            	<div class="small-12 large-8 columns">
                 
 			<header>
             	<?php if ( function_exists('yoast_breadcrumb') ) {
@@ -20,12 +22,11 @@ yoast_breadcrumb('<p id="breadcrumbs">','</p>');} ?>
                         <?php the_content(); ?>
 			<?php get_template_part( 'acf' , 'gallery' ); ?>
 			<?php get_template_part( 'acf' , 'flexible-fields' ); ?>
+
                     </div>
 				</div>
-                <div class="small-12 large-3 columns menu small light-gray">
-                    <?php wp_nav_menu(array('theme_location' => 'utility', 'container' => false, 'menu_class' => '')); ?>
-					<?php dynamic_sidebar("Sidebar-subnav"); ?>
-                </div>
+
+			<?php get_template_part('tile-menu'); ?>
 
 	</article>	
 			
@@ -41,4 +42,6 @@ yoast_breadcrumb('<p id="breadcrumbs">','</p>');} ?>
 
 
 <?php get_footer(); ?>
+
+
 	</div>

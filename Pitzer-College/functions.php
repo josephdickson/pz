@@ -804,6 +804,60 @@ register_field_group(array (
 ));
 
 
+
+/* Foundation 4 Clearing Gallery */
+register_field_group(array (
+	'key' => 'group_550b158d67abc',
+	'title' => 'Gallery',
+	'fields' => array (
+		array (
+			'key' => 'field_550b1595ad773',
+			'label' => 'Image Gallery',
+			'name' => 'image_gallery',
+			'prefix' => '',
+			'type' => 'gallery',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'min' => '',
+			'max' => '',
+			'preview_size' => 'thumbnail',
+			'library' => 'all',
+			'min_width' => '',
+			'min_height' => '',
+			'min_size' => '',
+			'max_width' => '',
+			'max_height' => '',
+			'max_size' => '',
+			'mime_types' => '',
+		),
+	),
+	'location' => array (
+		array (
+			array (
+				'param' => 'post_type',
+				'operator' => '==',
+				'value' => 'post',
+			),
+		),
+	),
+	'menu_order' => 0,
+	'position' => 'normal',
+	'style' => 'default',
+	'label_placement' => 'top',
+	'instruction_placement' => 'label',
+	'hide_on_screen' => '',
+));
+
+
+
+
+
 /* Social Networks */
 register_field_group(array (
 	'key' => 'group_542986452cf69',
