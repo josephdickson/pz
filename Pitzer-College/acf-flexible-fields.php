@@ -3,6 +3,8 @@
 // check if the flexible content field has rows of data
 if( have_rows('flexible_content') ):
 
+	$count = 0;
+
      // loop through the rows of data
     while ( have_rows('flexible_content') ) : the_row();
 		// Accordion
@@ -15,12 +17,14 @@ if( have_rows('flexible_content') ):
 		$additional = get_sub_field('wysiwyg');
 		// Columns
 		$number_columns = get_sub_field('number_of_columns');
+		// Counter for repeated items
+		$count++;
 
 	// Accordion Output
         if( get_row_layout() == 'accordion' ):
 
 
-		echo '<div class="section-container accordion content clear" data-section="accordion">
+		echo '<div class="section-container accordion content clear counter-' . $count . '" data-section="accordion">
 			<section>
 				<p class="title" data-section-title><strong><a href="#">' . $headline . '</a></strong></p>
 		<div class="content" data-section-content>'
@@ -35,14 +39,14 @@ if( have_rows('flexible_content') ):
         elseif( get_row_layout() == 'profile' ): 
 		
 		echo '<div class="row">';
-		echo '<div class="small-12 large-4 columns profile">
+		echo '<div class="small-12 large-4 columns profile counter-' . $count . '">
 			<img src="'. $image['url'] .'" alt="' . $image['alt'] . '" />
 		</div>';
 		echo '<div class="small-12 large-8 columns profile">' . $content . '</div>' ;
 		echo '</div>';
 	// Additional Content
 	elseif( get_row_layout() == 'additional_content' ):
-		echo '<div class="small-12 clear">' . $additional . '</div>' ;
+		echo '<div class="small-12 clear counter-' . $count . '">' . $additional . '</div>' ;
 
 	// check current row layout
        elseif( get_row_layout() == 'columns' ):
@@ -57,7 +61,7 @@ if( have_rows('flexible_content') ):
 
 				$content = get_sub_field ('column_content');
 
-					echo '<li>' . $content . '</li>';
+					echo '<li class="counter-' . $count . '">' . $content . '</li>';
 
 				endwhile;
 
