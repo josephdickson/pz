@@ -7,9 +7,10 @@
 
 
 <?php
-
-	$logo_footer = get_field('logo_footer' , 'option');
-	$logo_url_footer = get_field('url_footer' , 'option');
+	if(function_exists('get_field')){
+		$logo_footer = get_field('logo_footer' , 'option');
+		$logo_url_footer = get_field('url_footer' , 'option');
+	}
 
  ?>
 

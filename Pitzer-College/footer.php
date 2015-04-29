@@ -18,8 +18,10 @@ $(window).bind('scroll', function(){
 
 	<div class="small-12 large-12 columns watermark hide-for-print">
 <?php	
-	$watermark = get_field('watermark' , 'option');
-	echo '<img src="' . $watermark['url'] . '" alt="' . $watermark['alt'] . '" />' ;
+	if(function_exists('get_field')){
+		$watermark = get_field('watermark' , 'option');
+		echo '<img src="' . $watermark['url'] . '" alt="' . $watermark['alt'] . '" />' ;
+	}
 ?>
 	</div>
 </footer>

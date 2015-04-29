@@ -38,10 +38,11 @@
 <body <?php body_class(); ?>>
 
 <?php 	
-	
-	$logo_header = get_field('logo_header' , 'option');
- 	$logo_url = get_field('url_header' ,  'option');
-	$banner = get_field('image_banner' ,  'option');
+	if (function_exists('get_field')){
+		$logo_header = get_field('logo_header' , 'option');
+	 	$logo_url = get_field('url_header' ,  'option');
+		$banner = get_field('image_banner' ,  'option');
+	}
 ?>
 
 <div class="container row shadow banner hide-for-print" style="background-image: url('<?php echo $banner['url']; ?>');">
