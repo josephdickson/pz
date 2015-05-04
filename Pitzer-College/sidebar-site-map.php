@@ -49,6 +49,8 @@
 	<li><a href="/human-resources/">Human Resources</a></li>
 	<li><a href="https://mail.google.com/a/students.pitzer.edu">Email for Students</a></li>
 	<li><a href="http://email.pitzer.edu/">Email for Faculty &amp; Staff</a></li>
+	<li title="Access Lynda.com"><a href="http://www.pitzer.edu/information_technology/lynda/" target="_blank">Lynda.com</a></li>
+	<li title="Box Cloud Storage"><a href="https://pitzer.app.box.com/login">Box Cloud Storage</a></li>
 	<li><a href="https://sakai.claremont.edu:8443/portal/site/">Sakai</a></li>
 	<li><a href="http://forms.pitzer.edu/web-feedback-form/">Website Feedback</a></li>
 </ul>
