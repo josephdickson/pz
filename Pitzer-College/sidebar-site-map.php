@@ -19,15 +19,14 @@
     
     <div class="small-12 large-2 columns tiny">
 <ul>
-    <li class="large"><strong><a href="http://www.pitzer.edu/academics/index.asp">Academics</a></strong></li>
+    <li class="large"><strong><a href="http://pitweb.pitzer.edu/academics/">Academics</a></strong></li>
 	<li><a href="/registrar/academic-calendar/">Academic Calendar</a></li>
-	<li><a href="http://www.pitzer.edu/governance/committees/clc/index.asp">Campus Life Committee</a></li>
-	<li><a href="http://www.pitzer.edu/academics/curriculum/catalogs.asp">Course Catalogs</a></li>
-	<li><a href="http://www.pitzer.edu/academics/curriculum/index.asp">Curriculum</a></li>
-	<li><a href="http://www.pitzer.edu/academics/faculty_achievements/index.asp">Faculty Achievements</a></li>
-	<li><a href="http://www.pitzer.edu/academics/faculty/index.asp">Faculty Directory</a></li>
-	<li><a href="http://www.pitzer.edu/academics/fellowships/index.asp">Fellowships and Scholarships</a></li>
-    	<li><a href="http://www.pitzer.edu/academics/field_groups/index.asp">Field Groups</a></li>
+	<li><a href="http://pitweb.pitzer.edu/clc/">Campus Life Committee</a></li>
+	<li><a href="http://pitweb.pitzer.edu/academics/catalogs/">Course Catalogs</a></li>
+	<li><a href="http://pitweb.pitzer.edu/academics/faculty-achievements/">Faculty Achievements</a></li>
+	<li><a href="http://pitweb.pitzer.edu/academics/faculty/">Faculty Directory</a></li>
+	<li><a href="http://pitweb.pitzer.edu/iglas/fellowships-scholarships/">Fellowships and Scholarships</a></li>
+    	<li><a href="http://pitweb.pitzer.edu/academics/field-groups/">Field Groups</a></li>
 </ul>
     </div>
     
