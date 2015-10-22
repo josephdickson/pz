@@ -1365,3 +1365,6 @@ div.small-12.large-9.columns table td {
   .show-for-print {
     display: inherit !important; }
 	}
+
+/* tabs */
+.section-container section .title, .section-container .section .title, .section-container.auto section .title, .section-container.auto .section .title {background-color: #B9B9B9;}

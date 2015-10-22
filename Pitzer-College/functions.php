@@ -80,6 +80,7 @@ add_action('after_setup_theme', 'reverie_theme_support'); /* end Reverie theme s
 $sidebars = array('Sidebar');
 foreach ($sidebars as $sidebar) {
 	register_sidebar(array('name'=> $sidebar,
+		'id' => 'Sidebar',
 		'before_widget' => '<article id="%1$s" class="row widget %2$s"><div class="small-12 columns">',
 		'after_widget' => '</div></article>',
 		'before_title' => '<h6><strong>',
@@ -89,6 +90,7 @@ foreach ($sidebars as $sidebar) {
 $sidebars = array('Footer');
 foreach ($sidebars as $sidebar) {
 	register_sidebar(array('name'=> $sidebar,
+		'id' => 'Footer',
 		'before_widget' => '<article id="%1$s" class="large-4 columns widget %2$s">',
 		'after_widget' => '</article>',
 		'before_title' => '<h6><strong>',
@@ -99,6 +101,7 @@ foreach ($sidebars as $sidebar) {
 $sidebars = array('Sidebar-subnav');
 foreach ($sidebars as $sidebar) {
 	register_sidebar(array('name'=> $sidebar,
+		'id' => 'Sidebar-subnav',
 		'before_widget' => '<article id="%1$s" class="widget %2$s">',
 		'after_widget' => '</article>',
 		'before_title' => '<h6><strong>',
@@ -109,6 +112,7 @@ foreach ($sidebars as $sidebar) {
 $sidebars = array('Sidebar-secondary-subnav');
 foreach ($sidebars as $sidebar) {
 	register_sidebar(array('name'=> $sidebar,
+		'id' => 'Sidebar-secondary-subnav',
 		'before_widget' => '<article id="%1$s" class="widget %2$s">',
 		'after_widget' => '</article>',
 		'before_title' => '<h6><strong>',

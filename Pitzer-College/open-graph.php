@@ -10,12 +10,15 @@ add_filter('language_attributes', 'add_opengraph_doctype');
 
 function insert_fb_in_head() {
 	global $post;
+
 	if ( !is_singular()) //if it is not a post or a page
 		return;
-        echo '<meta property="fb:admins" content="108051929285833"/>';
+        echo '<meta property="fb:admins" content="joe4ska"/>';
         echo '<meta property="og:title" content="' . get_the_title() . '"/>';
         echo '<meta property="og:type" content="article"/>';
         echo '<meta property="og:url" content="' . get_permalink() . '"/>';
+	echo '<meta property="og:description" content="'. has_excerpt() .'"/>';
+
         echo '<meta property="og:site_name" content="Pitzer College"/>';
 	if(!has_post_thumbnail( $post->ID )) { //the post does not have featured image, use a default image
 		$default_image="http://pitweb.pitzer.edu/wp-content/uploads/2013/11/pitzer_logo_sans_colleges_orange.gif"; //replace this with a default image on your server or an image in your media library
