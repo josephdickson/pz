@@ -76,11 +76,36 @@ function reverie_theme_support() {
 }
 add_action('after_setup_theme', 'reverie_theme_support'); /* end Reverie theme support */
 
+
+/* Add Sidebar and Footer Widgets 2016-04-12 JD */
+add_action( 'widgets_init', 'pitzer_college_widgets_init' );
+function pitzer_college_widgets_init() {
+    register_sidebar( array(
+        'name' => __( 'Sidebar', 'pitzer-college' ),
+        'id' => 'Sidebar',
+        'description' => __( 'Widgets in this area may be shown on all posts and pages depending on template customizations.', 'pitzer-college' ),
+	'before_widget' => '<article id="%1$s" class="row widget %2$s"><div class="small-12 columns">',
+	'after_widget' => '</div></article>',
+	'before_title' => '<h6><strong>',
+	'after_title' => '</strong></h6>'
+    ) );
+
+    register_sidebar( array(
+        'name' => __( 'Footer', 'pitzer-college' ),
+        'id' => 'Footer',
+        'description' => __( 'Widgets in this area may be shown on all posts and pages depending on template customizations.', 'pitzer-college' ),
+	'before_widget' => '<article id="%1$s" class="row widget %2$s"><div class="small-12 columns">',
+	'after_widget' => '</div></article>',
+	'before_title' => '<h6><strong>',
+	'after_title' => '</strong></h6>'
+    ) );
+
+}
+/* Commented out to Fix sidebar errors 2016-04-12 JD 
 // create widget areas: sidebar, footer
 $sidebars = array('Sidebar');
 foreach ($sidebars as $sidebar) {
 	register_sidebar(array('name'=> $sidebar,
-		'id' => 'Sidebar',
 		'before_widget' => '<article id="%1$s" class="row widget %2$s"><div class="small-12 columns">',
 		'after_widget' => '</div></article>',
 		'before_title' => '<h6><strong>',
@@ -90,7 +115,6 @@ foreach ($sidebars as $sidebar) {
 $sidebars = array('Footer');
 foreach ($sidebars as $sidebar) {
 	register_sidebar(array('name'=> $sidebar,
-		'id' => 'Footer',
 		'before_widget' => '<article id="%1$s" class="large-4 columns widget %2$s">',
 		'after_widget' => '</article>',
 		'before_title' => '<h6><strong>',
@@ -101,7 +125,6 @@ foreach ($sidebars as $sidebar) {
 $sidebars = array('Sidebar-subnav');
 foreach ($sidebars as $sidebar) {
 	register_sidebar(array('name'=> $sidebar,
-		'id' => 'Sidebar-subnav',
 		'before_widget' => '<article id="%1$s" class="widget %2$s">',
 		'after_widget' => '</article>',
 		'before_title' => '<h6><strong>',
@@ -112,13 +135,14 @@ foreach ($sidebars as $sidebar) {
 $sidebars = array('Sidebar-secondary-subnav');
 foreach ($sidebars as $sidebar) {
 	register_sidebar(array('name'=> $sidebar,
-		'id' => 'Sidebar-secondary-subnav',
 		'before_widget' => '<article id="%1$s" class="widget %2$s">',
 		'after_widget' => '</article>',
 		'before_title' => '<h6><strong>',
 		'after_title' => '</strong></h6>'
 	));
 }
+*/
+
 // return entry meta information for posts, used by multiple loops.
 function reverie_entry_meta() {
 	echo '<time class="updated" datetime="'. get_the_time('c') .'" pubdate>'. sprintf(__('Posted on %s at %s.', 'reverie'), get_the_time('l, F jS, Y'), get_the_time()) .'</time>';
@@ -144,7 +168,6 @@ function sort_my_sites($blogs) {
 function pitzer_college_scripts() {
 	wp_enqueue_style( 'pitzer-print', get_template_directory_uri() . '/print.css' , '' ,'' , 'print');
 	wp_enqueue_style( 'pitzer-all', get_template_directory_uri() . '/main.css' , '' ,'' , 'screen'  );
-
 }
 
 add_action( 'wp_enqueue_scripts', 'pitzer_college_scripts' );

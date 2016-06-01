@@ -51,5 +51,6 @@
 	<li title="Access Lynda.com"><a href="http://pitweb.pitzer.edu/information-technology/services/lynda/" target="_blank">Lynda.com</a></li>
 	<li title="Box Cloud Storage"><a href="https://pitzer.app.box.com/login">Box Cloud Storage</a></li>
 	<li><a href="https://sakai.claremont.edu:8443/portal/site/">Sakai</a></li>
+	<li><a href="http://copyright.claremont.edu/index.html" title="The Claremont Colleges and Copyright" target="_blank">Copyright Policy</a></li>
 	<li><a href="http://forms.pitzer.edu/web-feedback-form/">Website Feedback</a></li>
 </ul>

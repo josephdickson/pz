@@ -105,7 +105,6 @@ Enqueue CSS and Scripts
 
 // loading modernizr and jquery, and reply script
 function reverie_scripts_and_styles() {
-  global $is_IE;
   if (!is_admin()) {
 
     // modernizr (without media query polyfill)
@@ -130,12 +129,11 @@ function reverie_scripts_and_styles() {
     
     // adding Foundation scripts file in the footer
     wp_register_script( 'reverie-js', get_template_directory_uri() . '/js/foundation.min.js', array( 'jquery' ), '', true );
-    
+/* commented out by JD 2016-04-12 
     if ($is_IE) {
-       wp_register_script ( 'html5shiv', "http://html5shiv.googlecode.com/svn/trunk/html5.js"  , false, true);
-
+       wp_register_script ( 'html5shiv', "http://html5shiv.googlecode.com/svn/trunk/html5.js" , false, true);
     }
-
+*/
     // enqueue styles and scripts
     wp_enqueue_script( 'reverie-modernizr' );
     wp_enqueue_style('reverie-ie-only');

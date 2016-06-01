@@ -38,8 +38,14 @@ $(window).bind('scroll', function(){
 			  });
 	})(jQuery);
 	
-
 </script>
+
+<!-- monsido test  -->
+<script type="text/javascript">
+    var _monsido = _monsido || [];
+    _monsido.push(['_setDomainToken', 'I8T8Wfkg2Mh2SQkn0koXTg']);
+  </script>
+<script src="//cdn.monsido.com/tool/javascripts/monsido.js"></script>
 
 </body>
 </html>
