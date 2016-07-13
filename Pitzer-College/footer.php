@@ -40,12 +40,14 @@ $(window).bind('scroll', function(){
 	
 </script>
 
-<!-- monsido test  -->
+<!-- monsido web governance script-->
 <script type="text/javascript">
-    var _monsido = _monsido || [];
-    _monsido.push(['_setDomainToken', 'I8T8Wfkg2Mh2SQkn0koXTg']);
-  </script>
+	var _monsido = _monsido || [];
+	_monsido.push(['_setDomainToken', 'KAsr98eG5vIUXKrLshA4OA']);
+	_monsido.push(['_withStatistics', 'true']);
+</script>
 <script src="//cdn.monsido.com/tool/javascripts/monsido.js"></script>
+
 
 </body>
 </html>

@@ -536,7 +536,7 @@ header.row {
 .row.banner-3 .columns {}
 nav.top-bar.large-12.columns {}
 nav.top-bar span {}
-.title-area li.name h1 {display: none;}
+.title-area li.name {display: none;}
 
 /* Container */
 

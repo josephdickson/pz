@@ -2,7 +2,7 @@
 			    <ul class="title-area large-2 columns">
 
             <li class="name">
-	        	<h1><a href="http://pitweb.pitzer.edu/" title="Pitzer College" rel="home"><span>Pitzer College</span></a></h1>
+	        	<a href="http://pitweb.pitzer.edu/" title="Pitzer College" rel="home"><span>Pitzer College</span></a>
 	        </li>
 			<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
 			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
